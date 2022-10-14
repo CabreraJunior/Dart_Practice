@@ -1,3 +1,4 @@
+//12. Function that return the lengthiest word in a list.
 String findALongWord(List given) {
   String lengthiest = "";
   for (var i = 0; i < given.length; i++) {

@@ -1,3 +1,4 @@
+//10. Function that converts the given string in reverse.
 String reverseString(String given) {
   String reversed = "";
   for (var i = given.length - 1; i >= 0; i--) {

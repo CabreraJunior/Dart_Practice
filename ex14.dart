@@ -1,3 +1,4 @@
+//14. Function that returns a list of integers which are less than a given value, given list of integers.
 List filterData(List givenList, num givenVal) {
   List lessInt = [];
   for (var i = 0; i < givenList.length; i++) {

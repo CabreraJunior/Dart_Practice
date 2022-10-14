@@ -1,3 +1,4 @@
+//5. Function that return the last element of a list.
 getLastElemente(List given) {
   return given[given.length - 1];
 }

@@ -1,3 +1,4 @@
+//13. Function that return all the occurrences of each character of a given string.
 Map getCharCount(String given) {
   Map charCount = {};
   int count = 0;

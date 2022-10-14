@@ -1,3 +1,4 @@
+//8. Function that calculates factorial of given number.
 num factorial(int given) {
   int factorial = given;
   for (var i = 1; i < given; i++) {
