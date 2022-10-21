@@ -1,8 +1,8 @@
 class Practice9 {
-  num getCount(String givenS, String givenC) {
+  num getCount({required String input, required String char}) {
     int count = 0;
-    for (var i = 0; i < givenS.length; i++) {
-      if (givenS[i] == givenC) {
+    for (var i = 0; i < input.length; i++) {
+      if (input[i] == char) {
         count++;
       }
     }

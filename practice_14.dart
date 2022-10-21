@@ -1,9 +1,9 @@
 class Practice14 {
-  List filterData(List givenList, num givenVal) {
+  List filterData({required List input, required int value}) {
     List lessInt = [];
-    for (var i = 0; i < givenList.length; i++) {
-      if (givenList[i] < givenVal) {
-        lessInt.add(givenList[i]);
+    for (var i = 0; i < input.length; i++) {
+      if (input[i] < value) {
+        lessInt.add(input[i]);
       }
     }
     return lessInt;
